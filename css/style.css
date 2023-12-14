@@ -1,0 +1,90 @@
+body{
+    background-color: aliceblue;
+}
+
+.parent-block{
+    background-color: white;
+    width: 850px;
+    height: 450px;
+    padding: 30px 0px 0px 50px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    display: flex;
+}
+
+.sidebar{
+    width: 250px;
+    height: 430px;
+    border-radius: 10px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-image: url("../assets/images/bg-sidebar-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0px 0px 0px 0px;
+    margin-right: auto;
+
+  }
+
+.step-indicator{
+    display: flex;
+    align-items: center;
+    padding-bottom: 1px;
+    padding-top: 5px;
+  }
+
+.circle-1{
+    border: 1px solid  hsl(229, 24%, 87%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color:  hsl(229, 24%, 87%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 15px;
+    margin-right: 16px;
+    padding: 45;
+}
+
+.subtitle{
+    color:  hsl(229, 24%, 87%);
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 2px;
+}
+
+.mini-title{
+    font-size: 15px;
+    font-weight: 500;
+    padding-bottom:2px;
+    color: white;
+}
+
+input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+.form-block {
+  border-radius: 5px;
+  padding: 20px;
+  width: 50%;
+}
+
+
+.button-block{
+    background-color: blue;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
